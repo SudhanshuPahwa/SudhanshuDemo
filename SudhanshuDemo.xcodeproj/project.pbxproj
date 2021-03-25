@@ -14,6 +14,11 @@
 		04B4AAEA260B6D9D004B8255 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04B4AAE8260B6D9D004B8255 /* LaunchScreen.storyboard */; };
 		04B4AAF5260B6D9D004B8255 /* SudhanshuDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B4AAF4260B6D9D004B8255 /* SudhanshuDemoTests.swift */; };
 		04B4AB00260B6D9D004B8255 /* SudhanshuDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B4AAFF260B6D9D004B8255 /* SudhanshuDemoUITests.swift */; };
+		04BF93FF260BABE90063250E /* menu.json in Resources */ = {isa = PBXBuildFile; fileRef = 04BF93FE260BABE90063250E /* menu.json */; };
+		04BF9404260BADD60063250E /* CategoriesModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BF9403260BADD60063250E /* CategoriesModal.swift */; };
+		04EE1381260B71E500BDF32B /* CategoriesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EE1380260B71E500BDF32B /* CategoriesTableViewCell.swift */; };
+		04EE1399260B811700BDF32B /* CategorySectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EE1398260B811700BDF32B /* CategorySectionView.swift */; };
+		04EE139E260B812C00BDF32B /* CategorySectionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04EE139D260B812C00BDF32B /* CategorySectionView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,11 @@
 		04B4AAFB260B6D9D004B8255 /* SudhanshuDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SudhanshuDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04B4AAFF260B6D9D004B8255 /* SudhanshuDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SudhanshuDemoUITests.swift; sourceTree = "<group>"; };
 		04B4AB01260B6D9D004B8255 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04BF93FE260BABE90063250E /* menu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = menu.json; sourceTree = "<group>"; };
+		04BF9403260BADD60063250E /* CategoriesModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesModal.swift; sourceTree = "<group>"; };
+		04EE1380260B71E500BDF32B /* CategoriesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesTableViewCell.swift; sourceTree = "<group>"; };
+		04EE1398260B811700BDF32B /* CategorySectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategorySectionView.swift; sourceTree = "<group>"; };
+		04EE139D260B812C00BDF32B /* CategorySectionView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategorySectionView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +113,11 @@
 				04B4AAE6260B6D9D004B8255 /* Assets.xcassets */,
 				04B4AAE8260B6D9D004B8255 /* LaunchScreen.storyboard */,
 				04B4AAEB260B6D9D004B8255 /* Info.plist */,
+				04EE1380260B71E500BDF32B /* CategoriesTableViewCell.swift */,
+				04EE1398260B811700BDF32B /* CategorySectionView.swift */,
+				04EE139D260B812C00BDF32B /* CategorySectionView.xib */,
+				04BF93FE260BABE90063250E /* menu.json */,
+				04BF9403260BADD60063250E /* CategoriesModal.swift */,
 			);
 			path = SudhanshuDemo;
 			sourceTree = "<group>";
@@ -229,8 +244,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04BF93FF260BABE90063250E /* menu.json in Resources */,
 				04B4AAEA260B6D9D004B8255 /* LaunchScreen.storyboard in Resources */,
 				04B4AAE7260B6D9D004B8255 /* Assets.xcassets in Resources */,
+				04EE139E260B812C00BDF32B /* CategorySectionView.xib in Resources */,
 				04B4AAE5260B6D9B004B8255 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,7 +274,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				04B4AAE2260B6D9B004B8255 /* ViewController.swift in Sources */,
+				04BF9404260BADD60063250E /* CategoriesModal.swift in Sources */,
 				04B4AAE0260B6D9B004B8255 /* AppDelegate.swift in Sources */,
+				04EE1399260B811700BDF32B /* CategorySectionView.swift in Sources */,
+				04EE1381260B71E500BDF32B /* CategoriesTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
