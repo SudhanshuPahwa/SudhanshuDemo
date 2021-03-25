@@ -107,17 +107,11 @@
 		04B4AADE260B6D9B004B8255 /* SudhanshuDemo */ = {
 			isa = PBXGroup;
 			children = (
-				04B4AADF260B6D9B004B8255 /* AppDelegate.swift */,
-				04B4AAE1260B6D9B004B8255 /* ViewController.swift */,
-				04B4AAE3260B6D9B004B8255 /* Main.storyboard */,
-				04B4AAE6260B6D9D004B8255 /* Assets.xcassets */,
-				04B4AAE8260B6D9D004B8255 /* LaunchScreen.storyboard */,
 				04B4AAEB260B6D9D004B8255 /* Info.plist */,
-				04EE1380260B71E500BDF32B /* CategoriesTableViewCell.swift */,
-				04EE1398260B811700BDF32B /* CategorySectionView.swift */,
-				04EE139D260B812C00BDF32B /* CategorySectionView.xib */,
-				04BF93FE260BABE90063250E /* menu.json */,
-				04BF9403260BADD60063250E /* CategoriesModal.swift */,
+				98C45440260C4E7C0064F1D4 /* UIView */,
+				98C45445260C509D0064F1D4 /* Supporting files */,
+				98C45446260C50B40064F1D4 /* ViewController */,
+				98C45441260C50740064F1D4 /* Model */,
 			);
 			path = SudhanshuDemo;
 			sourceTree = "<group>";
@@ -138,6 +132,44 @@
 				04B4AB01260B6D9D004B8255 /* Info.plist */,
 			);
 			path = SudhanshuDemoUITests;
+			sourceTree = "<group>";
+		};
+		98C45440260C4E7C0064F1D4 /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				04EE139D260B812C00BDF32B /* CategorySectionView.xib */,
+				04B4AAE3260B6D9B004B8255 /* Main.storyboard */,
+				04B4AAE8260B6D9D004B8255 /* LaunchScreen.storyboard */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		98C45441260C50740064F1D4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				04BF9403260BADD60063250E /* CategoriesModal.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		98C45445260C509D0064F1D4 /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				04B4AAE6260B6D9D004B8255 /* Assets.xcassets */,
+				04BF93FE260BABE90063250E /* menu.json */,
+			);
+			path = "Supporting files";
+			sourceTree = "<group>";
+		};
+		98C45446260C50B40064F1D4 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				04B4AAE1260B6D9B004B8255 /* ViewController.swift */,
+				04B4AADF260B6D9B004B8255 /* AppDelegate.swift */,
+				04EE1380260B71E500BDF32B /* CategoriesTableViewCell.swift */,
+				04EE1398260B811700BDF32B /* CategorySectionView.swift */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

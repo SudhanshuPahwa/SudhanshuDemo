@@ -88,6 +88,14 @@ extension ViewController : UITableViewDataSource,UITableViewDelegate{
         return cell
     }
     
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return UITableView.automaticDimension
+    }
+    
+    func tableView(_ tableView: UITableView, estimatedHeightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 120
+    }
+    
     @objc func expandBtnAction(sender:UIButton){
         self.categoriesArray[sender.tag].isSelected = !self.categoriesArray[sender.tag].isSelected
 //        DispatchQueue.global(qos: .userInitiated).async {
@@ -97,11 +105,17 @@ extension ViewController : UITableViewDataSource,UITableViewDelegate{
 //                self.tblView.reloadData()
 //            }
 //        }
-        DispatchQueue.main.async {
-            self.tblView.reloadSections(IndexSet(integer: sender.tag), with: .automatic)
+       // DispatchQueue.main.async {
+       // DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
+            self.tblView.reloadData()
+
+            // Change `2.0` to the desired number of seconds.
+           // Code you want to be delayed
+       // }
+            //self.tblView.reloadSections(IndexSet(integer: sender.tag), with: .automatic)
 //            let indexes = (0..<self.categoriesArray[sender.tag].sub_category.count).map { IndexPath(row: $0, section: sender.tag) }
 //            self.tblView.reloadRows(at: indexes, with: .automatic)
-        }
+        //}
         
     }
     
